@@ -7,9 +7,6 @@
     list-style: none;
 }
 
-body {
-    background-color: #d9dcd6;
-}
 
 .main-header {
     position: fixed;
@@ -62,7 +59,12 @@ body {
     
 }
 
-
+.main-content {
+    padding: 94px 0px 0px 10px;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 
 
