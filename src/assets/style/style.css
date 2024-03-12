@@ -64,10 +64,40 @@
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
+}
+
+.content_item {
+    display: flex;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.main-section_item{
+    
+    background-color:#31424b;
+    color: #76C7D1;
+}
+
+.main-section_item img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
 
-
-
-
+.content_item h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
