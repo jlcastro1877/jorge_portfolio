@@ -14,26 +14,40 @@ body {
 .main-header {
     position: fixed;
     width: 100%;
-    padding: 20px 12%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 5%;
     background-color:#31424b;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
-.main-header h1 {
-    display: inline-block;
-    font-size: 30px;
-    color: #31424b;
+.logo{
+    font-size: 25px;
+    color:#31424b;
     background-color: #76C7D1;
 }
 
-.main-header nav {
+/* .main-header h1 {
+  font-size: 25px;
+  color:#31424b;
+  background-color: #76C7D1;
+  transition: 0.3s ease;
+} */
+
+.navbar a {
+    font-size: 18px;
+}
+
+
+/* .navbar {
     padding-top: 15px;
     margin-left: 40px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
+} */
 
 .main-header nav ul a {
     list-style-type: none;
