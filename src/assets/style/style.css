@@ -28,13 +28,16 @@
     vertical-align: middle;
 }
 
-/* .main-header_name {
+.main-header_name h1 {
     color: #192425;
     background: #76C7D1;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
-} */
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+   
+}
 
 .main-header_name img {
     width: 150px;
@@ -45,7 +48,7 @@
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 220px);
+    width: calc(100% - 400px);
     vertical-align: middle;
 }
 
@@ -59,6 +62,7 @@
 .main-nav_item {
     display: inline-block;
     margin: 0 16px;
+    font-size: 22px;
 }
 
 .main-nav_item a {
@@ -107,6 +111,12 @@
 .primary-section {
     display: flex;
     text-align: center;
+}
+
+.photo_portifolio {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #about-me h1 {
