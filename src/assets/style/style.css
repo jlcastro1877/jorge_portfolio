@@ -8,12 +8,14 @@
     
 } */
 
-#portfolio_about_me {
+/* #portfolio_about_me {
     background: red;
     width: 100%;
     height: 528px;
     padding: 10px;
-}
+} */
+
+
 
 .main-header {
     width: 100%;
@@ -81,4 +83,49 @@
     color: #76C7D1;
     background:#192425;
     border: none;
+}
+
+.main-section_item
+{
+    width: 150px;
+    height: 300px;
+    background-color: #76C7D1;
+    padding: 1em;
+    font-weight: 300;
+    color: #192425;
+    text-align: center;
+    border: 2px solid white; 
+    gap: 2rem;
+    text-align: center;
+}
+
+.primary-section {
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; */
+    /* justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em; */
+    
+}
+
+#welcome_page h1 {
+   padding: 80px 50px 0px 20px
+}
+
+.item-1 {
+    color: #76C7D1;
+    background-color: #192425;
+    flex-basis: 500px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+.item-2 {
+    flex-grow: 1;
+    text-align:justify;
+    font-size: 20px;
+    padding: 60px 50px 0px 20px
 }
