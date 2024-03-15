@@ -107,6 +107,17 @@
     text-align: center;
 }
 
+.item-3 h1 {
+    margin: 87px;
+}
+
+
+.main-section_item_welcome > h1 {
+    text-align: center;
+    color: #192425;
+    background: #7876d1;
+}
+
 /* First section */
 .primary-section {
     display: flex;
@@ -151,7 +162,6 @@
     flex-basis: 500px;
     font-size: 30px;
     text-align: center;
-    
 }
 
 .item-4 {
@@ -161,4 +171,102 @@
     padding: 60px 50px 0px 20px;
     color: #76C7D1;
     background: #192425;
+    text-decoration: none;
+}
+
+.project-item > a {
+    text-decoration: none;
+    color: #76C7D1;
+}
+
+/* Third section */
+.third-section {
+    display: flex;
+    text-align: center;
+}
+
+.item-5 {
+    color: #76C7D1;
+    background-color: #192425;
+    flex-basis: 500px;
+    font-size: 25px;
+    text-align: center;
+    padding: 140px 50px 0px 0px;
+    border: 2px solid white;
+}
+
+.item-6 {
+    flex-grow: 1;
+    text-align:justify;
+    font-size: 25px;
+    padding: 50px 50px 0px 0px;
+    color: #192425;
+    background: #76C7D1;
+    text-decoration: none;
+    border: 2px solid white;
+    
+}
+
+.item-6 input {
+    width: 30%;
+    height: 20%;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 2px solid #192425; 
+    
+}
+
+.textarea {
+    width: 91%;
+    height: 20%;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border: 2px solid #192425;
+}
+
+.submit-form {
+    background-color: #76C7D1;
+    border-radius: 20px;
+    border-color: #192425;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 16px 16px;
+}
+
+.submit-form:hover,
+.submit-form:active {
+    color: #76C7D1;
+    background: #192425;
+}
+
+.main-footer {
+    background-color: #192425;
+   
+    border: 2px solid white;
+}
+
+.bottom {
+    background-color: #76C7D1;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.Social-items {
+    display: flex;
+    justify-content: center;
+}
+
+.Social-items a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Social-items a i {
+    font-size: 3em;
+    color: #192425;
 }
