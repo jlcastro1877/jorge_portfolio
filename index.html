@@ -4,31 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Jorge Portfolio</title>
 </head>
+
 <body>
     <header class="main-header">
-       <h1>Jorge Castro</h1>
-       <nav>
-        <ul>
-            <li>
-                <a href="#">About Me</a>
-            </li>
-            <li>
-                <a href="#">Work</a>
-            </li>
-            <li>
-                <a href="#">Contact Me</a>
-            </li>
-            <li>
-                <a href="#">Resume</a>
-            </li>
-        </ul>
-    </nav>
+        <div class="main-header_name">
+            <h1>Jorge Castro</h1> 
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav_items">
+                <li class="main-nav_item">
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li class="main-nav_item">
+                    <a href="#work">Work</a>
+                </li>
+                <li class="main-nav_item">
+                    <a href="#form">Contact Me</a>
+                </li>
+                <li class="main-nav_item main-nav_item--resumeBtn">
+                    <a href="#">Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
+    <div>
+        <section id="welcome" class="main-section_item_welcome">
+            <h1>Welcome to this page, here is your next hire!!!</h1>
+        </section>
+    </div>
+   
+    <div class="primary-section">
+    <section id="about-me" class="main-section_item item-1">
+        <img src="./src/assets/images/Perfil_photo.jpeg" alt="" class="photo_portifolio">
+        <h3>About Me</h3>
+    </section>
+    <section id="about-me-text" class="main-section_item item-2">
+        <p>
+            I have 22 years of experience working with software and I started coding in 2002 working with Visual Basic 6, building applications to scan images and store it on a database.
+            In 2004 I started working at the company TOTVS with enterprise resource planning software (ERP) as one of those software developers. The language that I use to develop is called ADVPL it is a proprietary programming language based on xbase.
+            From 2018 to 2020 in the United States, I worked in a company called Apiary Fund as a C# developer, maintaining the software of Forex trading. In 2021 the company started a project to rebuild the old website, and I had my first experience developing the web.
+            My skills are, C#, SQL, HTML, CSS, and JavaScript.
+            I have a bachelor's degree in Computer science and an MBA in Project Management PMI.
+        </p>
+    </section>
+ </div>
+ <div class="secondary-section">
+    <section id="work" class="main-section_item item-3">
+        <h1>Work</h1>
+    </section>
+    <section id="work-text" class="main-section_item item-4">
+        <p> We can see some of the front-end projects that I’ve been working on. </p>
+        <ul class="project-items">
+            <li class="project-item">
+                <a href="https://jlcastro1877.github.io/seo_challenge_page/">Horiseon</a>
+            </li>
+            <li class="project-item">
+                <a href="https://jlcastro1877.github.io/internet_carriers/">Internet Carrie</a>
+            </li>
+        </ul>
+     </section>
+ </div>
 
-
-    
+ <div class="third-section">
+    <section id="form" class="main-section_Form item-5">
+        <h1>Contact Me</h1>
+    </section>
+    <section id="form-text" class="main-section_itemForm item-6">
+        <input type="text" name="first" placeholder="First Name">
+        <input type="text" name="last" placeholder="Last Name">
+        <input type="email" name="email" placeholder="Email Adress">
+     <div>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required class="textarea"></textarea>
+     </div>
+     <div>
+        <button type="submit" class="submit-form">Send Message</button>
+     </div>
+     </section>
+ </div>
+ <footer>
+    <div class="main-footer">
+        <div class="Social-items">
+            <a href="www.linkedin.com/in/jorge-castro-mba-76661b24"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/jorge-castro-mba-76661b24"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Copyright &copy;2024; Designed by <span class="autor">Jorge Castro</span></p>
+    </div>
+  </footer>
 </body>
-</html>
